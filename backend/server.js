@@ -15,7 +15,7 @@ const db = mysql2.createPool({
     host: "localhost",
     user: "root",
     password: "", 
-    database: "user_db",
+    database: "users_db",
     waitForConnections: true,
     connectionLimit: 10,
     queueLimit: 0
